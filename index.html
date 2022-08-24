@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title> Genesystech Test </title>
+</head>
+
+<body>
+    <style>
+        #forminput {
+            width: 50%;
+            padding: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 8px solid #fff;
+            background: #aaa;
+            text-align: center;
+            text-emphasis: bold;
+        }
+        
+        h1,
+        p {
+            text-align: center;
+            text-emphasis: bold;
+            font-weight: normal;
+        }
+        
+        input[type=text] {
+            width: 80%;
+            padding: 12px 20px;
+            margin: 8px 0px;
+            box-sizing: border-box;
+            border: 2px solid #04a46D;
+            border-radius: 4px;
+        }
+        
+        input[type=submit] {
+            background-color: #04a46D;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+
+    <h1>Encryption and Decryption Programme </h1>
+    <hr>
+    <p> This program is developed to help you encrypt input and decrypt input at the same time. <br> This will help you decide when to store your encrypted data separately and when to decrypt it when neeeded.</p>
+    <hr>
+    <form id="forminput" method="POST" action="encryption.php">
+        <h3>
+            <p> Enter the text or String for Encryption </p>
+        </h3>
+        <Input type="text" name="input_text" placeholder="Enter the text or String for Encryption...!" /> <br /><br />
+        <Input type="submit" name="encrypt_decrypt_btn" value="Encrypt" />
+    </form>
+
+    <center> Copyright (c) 2022. Genesys Internship Test. All rights reserved. </center>
+</body>
+
+</html>
